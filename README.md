@@ -25,13 +25,13 @@ pip install -r requirements.txt
 
 ```cmd
 # cuda\cudnn环境
-python env_test/cuda_cudnn_test.py
+python env_test/cuda_cudnn/cuda_cudnn_test.py
 # gynasium环境
-python env_test/gymnasium_demo_test.py
+python env_test/gymnasium/gymnasium_demo_test.py
 # mujoco环境
-python env_test/mujoco_demo_test.py
+python env_test/mujoco/mujoco_demo_test.py
 # pybullet环境
-python env_test/pybullet_demo_test.py
+python env_test/pybullet/pybullet_demo_test.py
 ```
 
 - [ ] 机械臂强化学习抓取

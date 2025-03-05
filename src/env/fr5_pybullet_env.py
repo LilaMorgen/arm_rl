@@ -41,7 +41,7 @@ class FR5_Env(gym.Env):
 
         # boxId = self.p.loadURDF("plane.urdf")
         # 创建机械臂
-        self.fr5 = self.p.loadURDF(r"..\..\arm_description\fr5\urdf\fr5_withgripper.urdf", useFixedBase=True,
+        self.fr5 = self.p.loadURDF(r"../../arm_description/fr5/urdf/fr5_withgripper.urdf", useFixedBase=True,
                                    basePosition=[0, 0, 0],
                                    baseOrientation=p.getQuaternionFromEuler([0, 0, np.pi / 2]),
                                    flags=p.URDF_USE_SELF_COLLISION)

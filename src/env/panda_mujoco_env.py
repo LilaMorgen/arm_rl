@@ -16,7 +16,7 @@ class PandaGraspEnv(gym.Env):
         super().__init__()
 
         # 加载Panda机械臂模型
-        self.panda_xml_path = r"..\..\arm_description\panda\panda_scene.xml"
+        self.panda_xml_path = r"../../arm_description/panda/panda_scene.xml"
         self.model = mujoco.MjModel.from_xml_path(self.panda_xml_path)
         self.data = mujoco.MjData(self.model)
 

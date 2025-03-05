@@ -18,9 +18,9 @@ from loguru import logger
 now = time.strftime('%m%d-%H%M%S', time.localtime())
 
 # HACK
-models_dir = f"..\\..\\models\\fr5_pybullet\\PPO\\" + now
-logs_dir = f"..\\..\\logs\\fr5_pybullet\\PPO\\" + now
-checkpoints = f"..\\..\\checkpoints\\fr5_pybullet\\PPO\\" + now
+models_dir = f"../../models/fr5_pybullet/PPO/" + now
+logs_dir = f"../../logs/fr5_pybullet/PPO/" + now
+checkpoints = f"../../checkpoints/fr5_pybullet/PPO/" + now
 
 def evaluate_model(model, env, n_eval_episodes=10):
     success_count = 0
